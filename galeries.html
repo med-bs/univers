@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <title>univers</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/unives.css">
+        <script src="js/imagealea.js" defer></script>
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/script.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <img src="images/logo.svg" alt="Logo univers" id="logoImg" />
+            <h1 id="titre">Découvrir l'univers</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="">Galeries</a></li>
+                    <li><a href="about.html">À propos</a></li>
+                </ul>
+            </nav>
+            <button id="menuToggle" class="hamburger">&nbsp;</button>
+        </header>
+        <section id="pageContent" class="home">
+            <main>
+                <h1>Galeries</h1> 
+                <ul>
+                    <li><a href="galerieAffiche.html?id=g1">
+                        <h2>étoile</h2>
+                        <img id="etoile" src="images/img-1.jpg" alt="Galerie étoile" class="image">
+                        <p class="intro">C'est un corps céleste plasmatique qui rayonne sa propre lumière par réactions de fusion nucléaire, ou des corps qui ont été dans cet état à un stade de leur cycle de vie, comme les naines blanches ou les étoiles à neutrons.</p>
+                    </a></li>
+                    <li><a href="galerieAffiche.html?id=g2">
+                        <h2>planet</h2>
+                        <img id="planet" src="images/img-2.jpg" alt="Galerie planet" class="image">
+                        <p class="intro">C'est un corps céleste orbitant autour du Soleil ou d'une autre étoile, possédant une masse suffisante pour que sa gravité la maintienne en équilibre hydrostatique.</p>
+                    </a></li>
+                    <li><a href="galerieAffiche.html?id=g3">
+                        <h2>lune</h2>
+                        <img id="lune" src="images/img-9.jpg" alt="Galerie lune" class="image">
+                        <p class="intro">C'est un objet céleste en orbite autour d'une planète ou d'un autre objet plus grand que lui-même qui n'est pas d'origine humaine, par opposition aux satellites artificiels. Ils peuvent être de grosse taille et ressembler à de petites planètes.</p>
+                    </a></li>
+                </ul>
+            </main>
+        </section>
+        <footer>
+            <p>&copy; Copyright Mohamed Ben Salem - 2021</p>
+            <p id="txtSize">
+                <button style="font-size: 12px;" data-size="0.8">A</button>
+                <button style="font-size: 16px;" data-size="1" class="active">A</button>
+                <button style="font-size: 24px;" data-size="1.5">A</button>
+            </p>
+        </footer>
+    </body>
+</html>
